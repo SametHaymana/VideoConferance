@@ -12,6 +12,7 @@ import "./static/index.css"
 
 import NotFound from "./notFound";
 import LoginPage from "./login";
+import RegisterPage from "./register"
 
 const router = createBrowserRouter([
   {
@@ -19,15 +20,18 @@ const router = createBrowserRouter([
     element: <div>Home</div>,
     errorElement:<NotFound/>,
     
-  
-
-    
   },
   {
     path: '/login',
     element: <LoginPage/>,
 
+  },
+  {
+    path: '/register',
+    element: <RegisterPage/>,
+
   }
+
 ]);
 
 

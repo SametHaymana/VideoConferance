@@ -1,5 +1,5 @@
 import React  from "react";
-import { Form,Container, Icon, Button, Input } from "semantic-ui-react";
+import { Form, Icon, Button, Input } from "semantic-ui-react";
 
 
 import image from "./static/img/img1.png";
@@ -19,11 +19,11 @@ export default class LoginPage extends React.Component{
             
 
 
-            <div id="loginContainer" style={{ backgroundImage:`url(${image})`}}>
+            <div class="AuthContainer" style={{ backgroundImage:`url(${image})`}}>
 
               
             
-              <div id="loginDiv">
+              <div class="AuthDiv">
               <Form
                 unstackable
                 size="large"
